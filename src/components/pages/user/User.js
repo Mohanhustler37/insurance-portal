@@ -1,11 +1,11 @@
 import React from 'react';
-import CreateUser from './user/CreateUser';
-import ListUser from './user/ListUser';
+import CreateUser from './CreateUser';
+import ListUser from './ListUser';
 
 const User = () => {    
     return (
         <div>
-            <h3 className="text-center">User Page</h3>
+            <h3 className="text-center">User Details</h3>
             <div className="container py-3">
                 <div className="row">
                     <CreateUser />
