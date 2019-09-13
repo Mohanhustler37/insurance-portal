@@ -68,3 +68,17 @@ export const deleteInsurance = text => ({
     payload: text
 
 });
+
+// LOGIN
+export const loginUser = text => ({
+    type: 'LOGIN',
+    payload: text
+
+});
+
+// OPTED INSURANCE
+export const optedInsurance = text => ({
+    type: 'OPTED_INSURANCE',
+    payload: text
+
+});

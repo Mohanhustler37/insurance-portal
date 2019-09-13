@@ -106,6 +106,7 @@ const CreateInsurance = () => {
                         <div className="form-group">
                             <label htmlFor="name">Company Name</label>
                             <select value={insuranceName} onChange={insuranceNameChange} className="form-control" name="iName">
+                                <option value="-1">--select--</option>
                                 {company.map(companyList =>
                                     <option data-companyid={companyList.id} key={companyList.id} value={companyList.companyName}>{companyList.companyName}</option>
                                 )}

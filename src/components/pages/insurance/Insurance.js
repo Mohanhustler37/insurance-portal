@@ -5,7 +5,7 @@ import ListInsurance from './ListInsurance';
 const Insurance = () => {
     return (
         <div>
-            <h3 className="text-center">Insurance Page</h3>
+            <h3 className="text-center">Insurance Details</h3>
             <div className="container py-3">
                 <div className="row">
                     <CreateInsurance />

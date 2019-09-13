@@ -4,6 +4,9 @@ import company from './company';
 import editCompany from './editCompany';
 import insurance from './insurance';
 import editInsurance from './editInsurance';
+import login from './login';
+import optedInsurance from './optedInsurance';
+
 import { combineReducers } from 'redux';
 
 const allReducer = combineReducers(
@@ -13,7 +16,9 @@ const allReducer = combineReducers(
         company,
         companyDetails: editCompany,
         insurance,
-        insuranceDetails: editInsurance
+        insuranceDetails: editInsurance,
+        login,
+        claimedInsurance: optedInsurance
     }
 );
 
